@@ -1,0 +1,182 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background-image: url("images/backgroundlos\ angeles.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+.center {
+    width: 800px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: whitesmoke; /*this uses opacity of 75% for the background color*/
+	opacity: 1;
+	 text-align: center;
+	border: 4px solid #ff944d;
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	border: 3px none;
+	text-align: left;
+
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: futura-pt,sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.5em;
+    margin: 0px auto 0px auto;
+    color: black;
+	text-align: center;
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: futura-pt,sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 1.2em;
+    line-height: 1.4;
+    color:black;
+    padding: 0px 0px;
+    margin: 25px auto 25px auto;
+	text-align: left;
+
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */		;
+	font-family: futura-pt,sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: black;
+	text-align:left;
+	margin: 0px auto 25px auto;
+}
+    
+
+
+p.new {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */		;
+	font-family: futura-pt,sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: black;
+	text-align :center;
+	margin: 0px auto 50px auto;
+}
+
+
+nav{
+	font-family: futura-pt, sans-serif;
+	font-size: .9em;
+	font-weight: lighter;
+	font-style: italic;
+	width: 800px; /* width of nav element */
+	margin: 0 auto; /* centers the nav element inside the enter div */
+	border:	solid	#ff944d;
+	border-width: 3px 0; /* this puts a 3px border on the top and bottom and the 0 removes the left and right */
+	text-align: right;
+	margin-top: 2em; /* adds a bit of space on top of the nav element */
+
+}
+
+
+nav li{
+	display: block; /*this allos the block level elements to display beside each other */
+
+}
+
+
+nav a{
+	display: inline-block;
+	padding: 10px; /*this adds space around the links*/
+
+}
+
+
+a{
+	color:black;
+	text-decoration: none; /*this removes the underline and can be changed here to other options */
+	font-weight: bold;
+
+
+}
+
+
+a:hover{
+	color: black;
+	background: #ff944d; /*this is the hover effect on the links */
+}
+
